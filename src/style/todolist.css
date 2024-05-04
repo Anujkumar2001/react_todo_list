@@ -109,3 +109,24 @@
 }
 
 /* task component css end here ----- */
+
+
+/* responsive design -- */
+/* Styles for small devices (e.g., smartphones) */
+@media only screen and (max-width: 600px) {
+
+ .taskInputContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+ }
+ .taskInputContainer button{
+  width: 140px;
+ }
+
+ .title{
+  font-size: 11px;
+  padding: 0;
+  height: 5vh;
+ }
+}
